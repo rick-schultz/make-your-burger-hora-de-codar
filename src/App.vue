@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar/index.vue';
-import Footer from './components/Footer/index.vue';
+import Navbar from './components/Navbar/Navbar.vue';
+import Footer from './components/Footer/Footer.vue';
 
 export default {
   components:{
@@ -25,23 +25,4 @@ export default {
 }
 </script>
 
-<style>
-  * {
-    font-family: Helvetica,sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  .main-container {
-    margin: 50px;
-    min-height: 350px;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 30px;
-    color: #222;
-  }
-</style>
+<style src="./styles/global.css"></style>
